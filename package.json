@@ -1,0 +1,9 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Leaning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "github.com/felipemeamaral/typechain",
+  "author": "(Felipe Amaral <felipe.miguel.elias@gmail.com>)",
+  "license": "MIT"
+}
