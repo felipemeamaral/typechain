@@ -4,6 +4,16 @@
   "description": "Leaning Typescript by making a Blockchain with it",
   "main": "index.js",
   "repository": "github.com/felipemeamaral/typechain",
-  "author": "(Felipe Amaral <felipe.miguel.elias@gmail.com>)",
-  "license": "MIT"
+  "author": "Felipe Amaral <felipe.miguel.elias@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.4.0"
+  }
 }
